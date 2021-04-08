@@ -106,3 +106,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     WifiOverlay \
     TetheringConfigOverlay
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/extra-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/extra-permissions.xml \
+    $(LOCAL_PATH)/permissions/extra-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/extra-permissions.xml \
+    $(LOCAL_PATH)/permissions/extra-permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/extra-permissions.xml
