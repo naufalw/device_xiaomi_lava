@@ -82,7 +82,7 @@ PRODUCT_PACKAGES += \
 
 # Google Camera
 PRODUCT_PACKAGES += \
-    GcamGo
+    GcamGO
 
  
 # Light
