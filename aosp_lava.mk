@@ -48,3 +48,4 @@ IS_PHONE := true
 
 #TenX Specific
 TARGET_FACE_UNLOCK_SUPPORTED := true
+CUSTOM_BUILD_TYPE := Official
