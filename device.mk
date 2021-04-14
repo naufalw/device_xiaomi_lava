@@ -81,11 +81,8 @@ PRODUCT_PACKAGES += \
     fastbootd
 
 # Google Camera
-#PRODUCT_PACKAGES += \
-#    GcamGO
-
-# ANXCamera
-$(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)
+PRODUCT_PACKAGES += \
+    GcamGO
  
 # Light
 PRODUCT_PACKAGES += \
