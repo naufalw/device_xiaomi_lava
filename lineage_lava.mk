@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2021 The LineageOS Project
 #
@@ -23,8 +24,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aeonax/ANXCamera/anx-vendor.mk)
 #
 # All components inherited here go to system_ext image
 #
