@@ -20,6 +20,6 @@
    <!-- Maintainer's Telegram username -->
    <string name="maintainer_telegram_username">https://t.me/nauFOSS</string>
 <!-- Changelogs -->
-   <string name="tenx_show_changelogs">https://github.com/Ten-X-Devices/TenX_Changelogs/blob/master/Lava/tenx_lava.txt</string>
+   <string name="tenx_show_changelogs">https://github.com/Ten-X-Devices/TenX_Changelogs/blob/master/lava/tenx_lava.txt</string>
 
 </resources>
