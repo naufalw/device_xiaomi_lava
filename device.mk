@@ -79,10 +79,6 @@ PRODUCT_PACKAGES += \
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
-
-# Google Camera
-PRODUCT_PACKAGES += \
-    GcamGO
  
 # Light
 PRODUCT_PACKAGES += \
